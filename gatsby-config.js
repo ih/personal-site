@@ -5,8 +5,8 @@ module.exports = {
       name: `Irvin`,
       summary: `A meandering path towards the perfect tool.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `My personal site.`,
+    siteUrl: `https://irvin.quest/`,
     social: {
       twitter: `irvinhwang`,
       youtube: `IrvinHwang`,
@@ -106,7 +106,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Irvin Hwang",
           },
         ],
       },
