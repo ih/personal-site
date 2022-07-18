@@ -19,8 +19,8 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
             youtube
+            email
           }
         }
       }
@@ -48,8 +48,8 @@ const Bio = () => {
           {author?.summary || null}
           <br />
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter
+          <a href={`mailto:${social?.email|| ``}`}>
+            Email 
           </a>
           &nbsp;
           <a href={`https://youtube.com/c/${social?.youtube || ``}`}>

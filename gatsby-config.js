@@ -2,14 +2,14 @@ module.exports = {
   siteMetadata: {
     title: `Irvin Hwang`,
     author: {
-      name: `Irvin`,
+      name: `Irvin Hwang`,
       summary: `A meandering path towards the perfect tool.`,
     },
     description: `My personal site.`,
     siteUrl: `https://irvin.quest/`,
     social: {
-      twitter: `irvinhwang`,
       youtube: `IrvinHwang`,
+      email: `irvin.hwang@gmail.com`,
     },
   },
   plugins: [
